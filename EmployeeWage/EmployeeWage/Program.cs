@@ -8,7 +8,8 @@ namespace EmployeeWage
         {
             Console.WriteLine("Welcom to the Employee Wage Problem");
             EmpWage employee = new EmpWage();
-            employee.MonthlyEmpWage();
+            employee.computeEmpwage("DMart", 20,2,10);
+            employee.computeEmpwage("Reliance", 10, 4, 20);
         }
     }
 }
